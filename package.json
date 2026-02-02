@@ -4,7 +4,7 @@
   "description": "Cross-platform N-API native printing bindings for Node.js (Windows & POSIX/CUPS). Requires Node.js >=18 and libcups >=1.6 for POSIX builds.",
   "main": "printer.js",
   "scripts": {
-    "install": "prebuild-install || node-gyp rebuild",
+    "install": "node-gyp rebuild",
     "build": "node-gyp rebuild",
     "test": "tap --disable-coverage test/unit/*.test.js"
   },
